@@ -1,0 +1,108 @@
+{
+    "type":"ads7830vars",
+    "version":"1.0",
+    "description":"ADS7830 ADC Vars",
+    "modified":"7-Jun-2023",
+    "vars": [
+        {
+            "name":"/HW/ADS7830/A0",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A0",
+            "description":"ADC Channel 0",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A1",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A1",
+            "description":"ADC Channel 1",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A2",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A2",
+            "description":"ADC Channel 2",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A3",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A3",
+            "description":"ADC Channel 3",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A4",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A4",
+            "description":"ADC Channel 4",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A5",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A5",
+            "description":"ADC Channel 5",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A6",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A6",
+            "description":"ADC Channel 6",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/A7",
+            "type":"uint16",
+            "value":"0",
+            "fmt":"%d",
+            "shortname":"A7",
+            "description":"ADC Channel 7",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        },
+        {
+            "name":"/HW/ADS7830/INFO",
+            "type":"str",
+            "length":"256",
+            "value":"",
+            "fmt":"%s",
+            "shortname":"ADCInfo",
+            "description":"ADC Info",
+            "flags":"volatile",
+            "read":"1000,1001",
+            "write":"1000"
+        }
+    ]
+}
